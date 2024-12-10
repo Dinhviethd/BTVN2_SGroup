@@ -1,0 +1,63 @@
+* {
+    font-family: monospace;
+    font-size: 16px;
+}
+body{
+    width: 800px;
+    margin: 40px 250px;
+    display: inline-block;
+}
+.about_me{
+    padding-bottom: 5px;
+    border-bottom: solid 2px red;
+    text-transform: uppercase;
+    font-size:16px;
+    margin-bottom: 30px;
+}
+p{
+    margin-bottom: 40px; 
+}
+.dow_butt{
+    border: 1px solid red;
+    padding: 10px 20px;
+    color: red;
+    border-radius: 100px;
+    text-transform: uppercase;
+    background-color: white;
+    font-size: 11px;
+}
+button{
+    background-color: black;
+    color: white;
+}
+.avatar{
+    width: 400px;
+    height: 400px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 50px auto;
+    }
+.script{
+    font-size: 30px;
+}
+.stats span{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(248, 87, 114);
+    display: block;
+}
+.stats p{
+    font-size: 14px;
+}
+.status{
+    display: flex; 
+    padding-right: -210px;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
