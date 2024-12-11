@@ -29,6 +29,7 @@ p{
 button{
     background-color: black;
     color: white;
+    border-radius: 4px;
 }
 .avatar{
     width: 400px;
@@ -60,4 +61,12 @@ button{
 .title{
     display: flex;
     justify-content: space-between;
+}
+.logo span{
+    border: 3px solid black;
+    padding: 3px 9px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
 }
