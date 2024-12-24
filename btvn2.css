@@ -3,16 +3,16 @@
     font-size: 16px;
 }
 body{
-    width: 800px;
+    width: 900px;
     margin: 40px 250px;
     display: inline-block;
 }
-.about_me{
+.small-header{
     padding-bottom: 5px;
     border-bottom: solid 2px red;
     text-transform: uppercase;
     font-size:16px;
-    margin-bottom: 30px;
+    display: inline-block;
 }
 p{
     margin-bottom: 40px; 
@@ -55,8 +55,8 @@ button{
 }
 .status{
     display: flex; 
-    padding-right: -210px;
     justify-content: space-between;
+    width:300px;
 }
 .title{
     display: flex;
@@ -70,3 +70,45 @@ button{
     background-color: black;
     font-weight: bold;
 }
+.webSkills{
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 5px 0px;
+    display: inline-block;
+    font-size: 13px;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.skill-icon{
+    width: 435px;
+}
+.Work-Experience{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.location span{
+    font-weight: bolder;
+}
+.location li{
+    margin-bottom: 10px;
+}
+.Company{
+    font-size: 20px;
+    margin: 7px 0px;
+}
+.location{
+    width: 425px;
+}
+.chuThich{
+    font-size: 12px;
+}
+
+
+
